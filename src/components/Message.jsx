@@ -1,5 +1,3 @@
-import Greeting from "./Greeting";
-
 function Message({ count }) {
   return (
     <p>
