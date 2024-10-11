@@ -1,7 +1,9 @@
-function Greeting({ name, word }) {
+function Greeting({ name, country }) {
   return (
     <div>
-      <h1>Hello, {name}, {word} </h1>
+      <h1>
+        Hello, {name} from {country}
+      </h1>
     </div>
   );
 }

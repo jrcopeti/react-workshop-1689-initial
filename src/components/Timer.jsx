@@ -7,6 +7,7 @@ function Timer() {
     console.log("useEffect - Mounting (initial render)");
     const timer = setInterval(() => {
       setCount((prevCount) => prevCount + 1);
+      console.log("Counting");
     }, 1000);
 
     return () => {

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Message from "./Message";
 
-export function Advice() {
+ function Advice() {
   const [advice, setAdvice] = useState("");
   const [count, setCount] = useState(0);
 
